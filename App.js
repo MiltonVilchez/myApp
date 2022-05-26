@@ -9,10 +9,12 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello world! I'm starting in mobile development ❤️</Text>
       {/* <Saludar name="Milton"></Saludar> */}
-      <Saludar ></Saludar>
+      {/* <Saludar ></Saludar> */}
       {/* <Saludar name="Abraham"></Saludar>
       <Saludar name="Vílchez"></Saludar>
       <Saludar name="Stockhausen"></Saludar> */}
+      <Saludar firstname='Milton' lastname={28}></Saludar>
+
     </View>
   );
 }
