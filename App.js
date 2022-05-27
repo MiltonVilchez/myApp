@@ -5,7 +5,8 @@ import React from "react";
 // import LoginForm from './src/components/LoginForm';
 // import Saludar from "./src/components/Saludar";
 // import NavigationStack from "./src/navigation/NavigationStack";
-import NavigationTab from "./src/navigation/NavigationTabs";
+// import NavigationTab from "./src/navigation/NavigationTabs";
+import NavigationDrawer from "./src/navigation/NavigationDrawer";
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
       {/* <NavigationStack>
       
       </NavigationStack> */}
-      <NavigationTab></NavigationTab>
+      {/* <NavigationTab></NavigationTab> */}
+      <NavigationDrawer></NavigationDrawer>
     </NavigationContainer>
   );
 }
