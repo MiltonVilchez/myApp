@@ -4,7 +4,8 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 // import LoginForm from './src/components/LoginForm';
 // import Saludar from "./src/components/Saludar";
-import NavigationStack from "./src/navigation/NavigationStack";
+// import NavigationStack from "./src/navigation/NavigationStack";
+import NavigationTab from "./src/navigation/NavigationTabs";
 
 export default function App() {
   return (
@@ -18,9 +19,10 @@ export default function App() {
       <Saludar name="Stockhausen"></Saludar>
         <Saludar firstname="Milton" lastname={28}></Saludar>
       </View> */}
-      <NavigationStack>
+      {/* <NavigationStack>
       
-      </NavigationStack>
+      </NavigationStack> */}
+      <NavigationTab></NavigationTab>
     </NavigationContainer>
   );
 }

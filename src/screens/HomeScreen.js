@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 
 export default function HomeScreen() {
@@ -9,7 +9,7 @@ export default function HomeScreen() {
   }
 
   return (
-    <View>
+    <SafeAreaView>
       <Text>HomeScreen</Text>
       <Text>HomeScreen</Text>
       <Text>HomeScreen</Text>
@@ -18,6 +18,6 @@ export default function HomeScreen() {
       <Text>HomeScreen</Text>
       <Text>HomeScreen</Text>
       <Button onPress={goToSettings} title="Ir a Ajustes"/> 
-    </View>
+    </SafeAreaView>
   )
 }
